@@ -1,0 +1,698 @@
+/*------------------------------------------------------------------
+[Table of contents]
+1. Button CSS
+2. Timeline CSS
+3. Quote CSS
+4. Isotope CSS
+5. Big Text CSS
+6. Slider CSS
+7. Team/Member CSS
+8. Gallery Item CSS
+9. Image PopUp (PreetyPhoto) CSS
+10. Portfolio Page CSS
+11. Portfolio Single Post CSS
+12. Responsive CSS
+-------------------------------------------------------------------*/
+
+
+
+/* ===================================
+    1. Button CSS
+====================================== */
+a.button
+{
+    display: inline-block;
+    color: #000000;
+    border: 1px solid #000000;
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 12px;
+    padding-left: 50px;
+    padding-right: 45px;
+    cursor: pointer;
+    vertical-align: middle;
+    text-decoration: none;
+    font-size: 11px;
+    transition: all .2s linear;
+    letter-spacing: 5px;
+    line-height: 22px;
+    margin-bottom: 17px;
+    text-transform: uppercase;
+}
+
+a.button:active
+{
+    position: relative;
+    top: 1px;	
+}
+
+a.button:hover
+{
+    color: white;
+    background-color: #000000;
+}
+
+
+
+/* ===================================
+    2. Timeline CSS
+====================================== */
+
+
+.timeline
+{
+    padding: 50px 120px;
+    background-color: #000;
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.timeline strong
+{
+    font-weight: 900;
+}
+
+
+/* ===================================
+    3. Quote CSS
+====================================== */
+
+
+.quote
+{
+    font-weight: 300;
+    font-style: italic;
+    max-width: 530px;
+    margin-top: 65px;
+    font-size: 24px;
+    line-height: 35px;
+    color: #676767;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.quote:before
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    content: '\201C';
+    font-size: 180px;
+    line-height: 20px;
+    color: #e5e5e5;
+    text-align: center;
+    display: block;
+    font-style: normal;
+}
+
+.quote-author
+{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    font-style: normal;
+    position: relative;
+    color: #000;
+    margin-top: 25px;
+    display: table;
+    z-index: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.quote-author:after
+{
+    content: '';
+    display: block;
+    width: 106%;
+    height: 5px;
+    background-color: #fffaa3;
+    position: absolute;
+    left: -3%;
+    bottom: 5px;
+    z-index: -1;   
+}
+
+
+/* ===================================
+    4. Isotope CSS
+====================================== */
+
+.isotope.no-transition,
+.isotope.no-transition .isotope-item,
+.isotope .isotope-item.no-transition {
+    -webkit-transition-duration: 0s;
+    -moz-transition-duration: 0s;
+    -ms-transition-duration: 0s;
+    -o-transition-duration: 0s;
+    transition-duration: 0s;
+}
+
+
+/* ===================================
+    5. Big Text CSS
+====================================== */
+
+
+.big-text 
+{
+    font-size: 24px;
+    line-height: 28px;
+    color: #000;
+    font-weight: 900;
+    border-bottom: 5px solid #fffaa3;
+    display: inline;
+}
+
+.big-text:after 
+{
+    content: "";
+    display: block;
+    margin-bottom: 17px;
+}
+
+
+/* ===================================
+    6. Slider CSS
+====================================== */
+
+
+.slick-slider.image-slider
+{
+    margin-bottom: 50px;
+}
+
+.slick-dots li button:before
+{
+    background-color: #000;
+    border-radius: 0;
+}
+
+.slick-slide img
+{
+    width: 100% !important;
+}
+
+
+/* ===================================
+    7. Team/Member CSS
+====================================== */
+
+
+.team-holder .member
+{
+    position: relative;    
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+.team-holder .member img
+{
+    display: block;
+    width: 100%;
+    height: auto;    
+}
+
+.team-holder .member.one_half
+{
+    width: 50%;
+}
+
+.team-holder .member.one_third
+{
+    width: calc(100% / 3);
+}
+
+.team-holder .member.one_fourth
+{
+    width: calc(100% / 4);   
+}
+
+.team-holder .member-info
+{
+    opacity: 0;
+    transition: .4s ease;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-align: center;
+    background-color: #000000;
+    color: #fff;
+}
+
+.team-holder .member-info:hover
+{
+    opacity: 1;
+}
+
+.team-holder .member-name
+{
+    margin-top: 25%;
+    margin-bottom: 25px;
+    font-weight: 700;
+}
+
+.team-holder .member-social-holder
+{
+    font-size: 16px;
+    line-height: 20px;
+    padding: 0 40px;
+}
+
+.team-holder .social
+{
+    display: inline-block;
+    font-size: 25px;
+    margin: 0 5px;
+}
+
+.team-holder .social a
+{
+    color: #fff;
+}
+
+.team-holder .social a:hover
+{
+    color: #dfdad4;
+}
+
+
+/* ===================================
+    8. Gallery Item CSS
+====================================== */
+
+
+.justified-gallery>a>.caption,
+.justified-gallery>div>.caption 
+{    
+    background-color: #F4F4F1;    
+    color: #000;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    padding-left: 20px;
+}
+
+.justified-gallery>a>.caption.caption-visible,
+.justified-gallery>div>.caption.caption-visible {
+    filter: "alpha(opacity=100)";
+    opacity: 1
+}
+
+
+/* ===================================
+    9. Image PopUp (PreetyPhoto) CSS
+====================================== */
+
+div.pp_default .pp_loaderIcon
+{
+    display: none !important;
+}
+
+div.pp_default a.pp_arrow_previous
+{
+    background-image: url(../images/nav_left.png);
+    background-size: 20px 20px;    
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+    font-size: 0;
+    line-height: 0;
+    text-indent: -99999999px;
+    transition: transform .3s ease;
+}
+
+div.pp_default a.pp_arrow_next
+{
+    background-image: url(../images/nav_right.png);
+    background-size: 20px 20px;    
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 0;
+    line-height: 0;
+    text-indent: -99999999px;
+    transition: transform .3s ease;
+}
+
+div.pp_default a.pp_arrow_previous:hover 
+{
+    transform: translateX(-5px);
+}
+
+div.pp_default a.pp_arrow_next:hover 
+{
+    transform: translateX(5px);
+}
+
+div.pp_default .pp_close
+{
+    background-image: url(../images/close.png);
+    background-size: 30px 30px;
+    margin-top: 5px;
+    text-indent: -99999999px;
+    font-size: 0;
+    line-height: 0;    
+}
+
+div.pp_default .pp_nav .currentTextHolder
+{
+    padding: 0 0 0 20px;
+    color: #fff;
+}
+
+div.pp_default .pp_content_container .pp_details 
+{
+    margin-top: 30px !important;
+    z-index: 3;
+}
+
+div.pp_default .pp_description 
+{
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    line-height: 30px;
+    position: absolute;
+    top: -30px;
+    margin: 0;
+    color: #fff;
+    font-weight: 400;
+}
+
+
+/* ===================================
+    10. Portfolio Page CSS
+====================================== */
+
+.portfolio-category
+{
+    margin-bottom: 25px;
+}
+
+.portfolio-category a 
+{
+    position: relative;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.portfolio-category a:after 
+{
+    content: '';
+    display: block;
+    width: 106%;
+    height: 5px;
+    background-color: #fffaa3;
+    position: absolute;
+    left: -3%;
+    bottom: 6px;
+    z-index: -1;
+    transition: bottom .3s ease;
+}
+
+.portfolio-category a:hover:after 
+{
+    bottom: 0;
+}
+
+.grid 
+{     
+    width: 1170px;
+    width: calc(1170px + 3%);
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;             
+    max-width: 100%;
+}
+
+.grid-item, .grid-sizer
+{
+    width: 50%;
+}
+
+.grid-item
+{
+    float: left;
+    font-size: 0;
+    line-height: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-bottom: 50px;
+}
+
+.portfolio-thumbnail
+{
+    overflow: hidden;
+}
+
+.portfolio-thumbnail img
+{
+    width: 100%;
+    height: auto;
+    max-width: none;
+    max-height: none;
+    transition: transform .3s ease;
+}
+
+.portfolio-thumbnail img:hover
+{
+    transform: scale(1.05);
+}
+
+.grid-item .entry-holder 
+{
+    text-align: center;
+    background-color: #fff;
+    padding: 50px 20px;
+}
+
+.more-posts-portfolio-holder
+{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    min-height: 1px;
+}
+
+.page-template-page-portfolio .more-posts-portfolio, .page-template-page-portfolio .no-more-posts-portfolio, .page-template-page-portfolio .more-posts-portfolio-loading
+{
+    color: #fff;
+    background-color: #000;
+    padding: 17px 6px 17px 14px;
+    display: inline-block;
+    font-size: 11px;
+    min-width: 170px;
+    letter-spacing: 8px;
+    transition: opacity .3s ease;
+}
+
+.page-template-page-portfolio .more-posts-portfolio:hover, .page-template-page-portfolio .no-more-posts-portfolio:hover, .page-template-page-portfolio .more-posts-portfolio-loading:hover
+{
+    opacity: 0.8 !important;
+}
+
+.page-template-page-portfolio .more-posts-portfolio
+{
+    cursor: pointer;   
+}
+
+.page-template-page-portfolio .no-more-posts-portfolio, .page-template-page-portfolio .more-posts-portfolio-loading
+{
+    display: none;
+}
+
+
+
+/* ===================================
+    11. Portfolio Single Post CSS
+====================================== */
+
+
+.single-portfolio .content-wrapper
+{
+    padding: 50px 0;
+    width: 870px;
+    font-size: 16px;
+    line-height: 25px;
+    margin: 0 auto;
+}
+
+.single.single-portfolio h1
+{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 35px;
+    text-align: left;
+    padding-top: 0;
+    padding-bottom: 6px;
+}
+
+.single-portfolio .top-content
+{
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.portfolio-item-info span 
+{
+    line-height: 35px;
+}
+
+.single-portfolio .nav-links 
+{
+    padding-top: 70px;
+}
+
+.single-portfolio .footer
+{
+    margin-top: 0 !important;
+}
+
+.one_half.margin-0{
+    width: 50%;
+}
+.one_third.margin-0{
+    width: 33.333333333%;
+}
+.two_third.margin-0{
+    width: 66.666666666%;
+}
+.one_fourth.margin-0{
+    width: 25%;
+}
+.three_fourth.margin-0{
+    width: 75%;
+}
+
+
+/* ===================================
+    12. Responsive CSS
+====================================== */
+
+
+@media screen and (max-width: 1360px) {  
+
+    .team-holder .member-info 
+    {
+        display: block !important;
+        opacity: 1 !important;
+        position: relative;
+        min-height: 180px;
+        padding: 30px 0;
+        margin-bottom: 30px;
+    }
+
+    .team-holder .member-name
+    {
+        margin-top: 0;
+    }
+
+    .grid-item .entry-holder
+    {
+        padding: 30px 20px;
+    }
+
+}
+
+@media screen and (max-width: 1020px)
+{
+
+    .single-portfolio .content-wrapper
+    {
+        max-width: 95%;
+    }
+
+    .team-holder .member.one_third {
+        width: 50%;
+        float: left;
+    }
+
+    .team-holder .member.one_half, .team-holder .member.one_fourth
+    {
+        width: 50%;
+        float: left;
+    }
+
+    .slick-slider.image-slider
+    {
+        margin-bottom: 75px;
+    }
+
+    .quote
+    {
+        margin-top: 110px;
+    }
+
+    .one_half.margin-0, .one_half.margin-0 img, .one_third.margin-0, .one_third.margin-0 img,
+    .two_third.margin-0, .two_third.margin-0 img, .one_fourth.margin-0, .one_fourth.margin-0 img,        
+    .three_fourth.margin-0, .three_fourth.margin-0 img
+    {
+        width: 100%;
+    }
+
+    .single.single-portfolio h1, .text-right
+    {
+        text-align: center !important;
+    }
+
+}
+
+@media screen and (max-width: 750px) {  
+
+    .timeline
+    {
+        padding: 5%;
+    }
+
+    .grid
+    {
+        width: 95%;
+    }
+
+    .grid-item, .grid-sizer
+    {
+        width: 100% !important;
+    }
+
+    .grid-item 
+    {
+        display: block !important;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+        margin-bottom: 33px;        
+    }
+
+    .single-portfolio .nav-previous, .single-portfolio .nav-next
+    {
+        display: inline-block;
+        padding-bottom: 0;
+        max-width: none;
+        margin: 0 15px;
+    }
+
+    .team-holder .member.one_third, .team-holder .member.one_half, .team-holder .member.one_fourth
+    {
+        width: 100%;
+    }
+    
+    .justified-gallery>a>.caption, .justified-gallery>div>.caption
+    {
+        display: none !important;
+    }
+
+}
+
+@media screen and (max-width: 630px) {  
+    .single-portfolio .nav-links 
+    {
+        padding-top: 30px;
+    }
+}

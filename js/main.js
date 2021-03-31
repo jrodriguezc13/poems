@@ -140,7 +140,7 @@ var animateElement = function (e) {
 
 var homeLoadMore = function (e) {
     jQuery('.more-posts').on("click", function () {
-        jQuery('.blog-holder').find(".hidden").slice(0, 4).removeClass("hidden").addClass("animate loaded");
+        jQuery('.blog-holder').find(".hidden").slice(0, 8).removeClass("hidden").addClass("animate loaded");
         animateElement();
         if (!jQuery('.blog-holder').find(".hidden").length)
         {

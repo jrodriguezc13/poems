@@ -10,16 +10,16 @@
   <h3 align="center">Poems in Spanish</h3>
 
   <p align="center">
-    The best selection of several poerms in spanish to delight our soul.
+    The best selection of several poems in spanish to delight our soul.
     <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/jrodriguezc13/poems"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
+    <a href="https://jrodriguezc13.github.io/poems/">View Demo</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
+    <a href="https://github.com/jrodriguezc13/poems/issues">Report Bug</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+    <a href="https://github.com/jrodriguezc13/poems/issues">Request Feature</a>
   </p>
 </p>
 
@@ -56,55 +56,67 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`github_username`, `repo_name`, `twitter_handle`, `email`, `project_title`, `project_description`
 
+<p align="center">
+<a href="https://github.com/jrodriguezc13/poems">
+    <img src="images\screenshots\screen1.png" alt="Screenshot" width="500" height="300">
+  </a>
+</p>
+
+Poetry, the genre that evokes a lot of emotions to the reader, from passionate love, to fun abput a topic, even sadness about loss or just feeling blue; poems can have the exact words to adapt to any situation. In this project, there is a selection of several poems to delight the reader.
 
 ### Built With
 
-* []()
-* []()
-* []()
+* [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+* [HTML 5](https://developer.mozilla.org/en-US/docs/Web/HTML)
+* [CCSS 3](https://developer.mozilla.org/en-US/docs/Web/CSS)
+* [PHP](https://www.php.net/manual/es/intro-whatis.php)
 
 
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-To get a local copy up and running follow these simple steps.
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
+This is a static website using HTML, CSS, and JavaScript that has several poems in spanish to delight the reader, with alluring and musical lyrics, regarding several topics that have been inspirational for poetry lovers.
 ### Installation
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/jrodriguezc13/poems.git
    ```
-2. Install NPM packages
-   ```sh
-   npm install
-   ```
+
 
 
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+The site is divided in 7 sections, each one about a specific topic of author, thanks to the use of the template provided in the acknowledgements section. And with the help of the graphic tool <i>Inkscape </i> &reg; the graphics of each poem section was created.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-
+<p align="center">
+<a href="https://github.com/jrodriguezc13/poems">
+    <img src="images\screenshots\screen2.png" alt="Screenshot" width="500" height="300">
+  </a>
+  <a href="https://github.com/jrodriguezc13/poems">
+    <img src="images\screenshots\screen3.png" alt="Screenshot" width="500" height="300">
+  </a>
+  <a href="https://github.com/jrodriguezc13/poems">
+    <img src="images\screenshots\screen4.png" alt="Screenshot" width="500" height="300">
+  </a>
+  <a href="https://github.com/jrodriguezc13/poems">
+    <img src="images\screenshots\screen5.png" alt="Screenshot" width="500" height="300">
+  </a>
+  <a href="https://github.com/jrodriguezc13/poems">
+    <img src="images\screenshots\screen6.png" alt="Screenshot" width="500" height="300">
+  </a>  
+    <a href="https://github.com/jrodriguezc13/poems">
+    <img src="images\screenshots\screen7.png" alt="Screenshot" width="500" height="300">
+  </a>
+  <a href="https://github.com/jrodriguezc13/poems">
+    <img src="images\screenshots\screen10.png" alt="Screenshot" width="500" height="200">
+  </a>
+</p>
 
 <!-- ROADMAP -->
 ## Roadmap
@@ -136,18 +148,19 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: [https://github.com/jrodriguezc13/poems](https://github.com/jrodriguezc13/poems)
 
 
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
-* []()
-* []()
-* []()
+* [GitHub Pages](https://pages.github.com)
+* [Coco Basic Templates: Park HTML](https://demo.cocobasic.com/park-html/index.html)
+* [Growly]()
+*[Inkscape](https://inkscape.org/es/)
+
 
 
 

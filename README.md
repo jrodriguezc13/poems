@@ -159,7 +159,7 @@ Project Link: [https://github.com/jrodriguezc13/poems](https://github.com/jrodri
 * [GitHub Pages](https://pages.github.com)
 * [Coco Basic Templates: Park HTML](https://demo.cocobasic.com/park-html/index.html)
 * [Growly]()
-*[Inkscape](https://inkscape.org/es/)
+* [Inkscape](https://inkscape.org/es/)
 
 
 
